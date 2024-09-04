@@ -4,7 +4,7 @@ import type { InitOptions } from 'payload/config'
 import payload, { Payload } from 'payload'
 
 dotenv.config({
-    path: path.resolve(__dirname, '../.env'),
+    path: path.resolve(__dirname, '.env'),
 })
 
 
